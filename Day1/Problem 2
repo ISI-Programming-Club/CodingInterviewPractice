@@ -15,5 +15,5 @@ Output: false
 
 
 Contraints:
-1 <= deck.length <= 104
-0 <= deck[i] < 104
+1 <= deck.length <= 10^4
+0 <= deck[i] < 10^4
