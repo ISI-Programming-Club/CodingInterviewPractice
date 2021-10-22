@@ -19,7 +19,7 @@ int main()
     {
         for(int j=0;j<(k*k)-i-1;j++)
         {
-            if(list[j]<list[j+1])
+            if(list[j]>list[j+1])
             {
                 int temp=list[j];
                 list[j]=list[j+1];
