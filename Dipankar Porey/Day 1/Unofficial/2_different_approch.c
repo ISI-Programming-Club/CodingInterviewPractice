@@ -49,10 +49,7 @@ void main_function(int arr[], int n)
         b_array[arr[i]]= b_array[arr[i]] + 1;
     }
     printf("\n");
-    for(int i=0;i<p;i++)
-    {
-        printf("%d\t",b_array[i]);
-    }
+   
     int flag=max_function(b_array,p);
     for(int i=0;i<p;i++)
     {
