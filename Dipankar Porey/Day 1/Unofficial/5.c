@@ -15,9 +15,9 @@ int main()
             p=p+1;
         }
     }
-    for(int i=0;i<k*k;i++)
+    for(int i=0;i<(k*k)-1;i++)
     {
-        for(int j=i;j<k*k;j++)
+        for(int j=0;j<(k*k)-i-1;j++)
         {
             if(list[j]<list[j+1])
             {
